@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "MyPrivateLibRelease",
-            targets: ["MyPrivateLibRelease"]
+            targets: ["MyPrivateLibRelease", "MyPrivateLib"]
         ),
     ],
     targets: [
@@ -18,5 +18,10 @@ let package = Package(
         .target(
             name: "MyPrivateLibRelease"
         ),
+        .binaryTarget(
+            name: "MyPrivateLib",
+            url: "",
+            checksum: ""
+        )
     ]
 )
