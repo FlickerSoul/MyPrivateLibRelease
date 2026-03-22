@@ -20,8 +20,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MyPrivateLib",
-            url: "https://api.github.com/repos/FlickerSoul/MyPrivateLibRelease/releases/assets/378812113.zip",
-            checksum: "06bbdebd623106e1a589380ed13f77c3e0fdce8b769238fe5c388a3c2a318181"
+            url: "https://api.github.com/repos/FlickerSoul/MyPrivateLibRelease/releases/assets/378819984.zip",
+            checksum: "a73131a47d0e6346a8f5b2fdbcbffd7311d8a7c94df22c4112f0c6d2da149d28"
         )
     ]
 )
